@@ -1,0 +1,55 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python & Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.sqlite3
+*.db
+
+# Node.js & Frontend (Vite / React)
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker & Volumes
+postgres_data/
+pgdata/
+*.tar
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
